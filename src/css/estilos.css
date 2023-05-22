@@ -1,0 +1,166 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.cabecalho .logo {
+    width: 30px;
+}
+
+.cabecalho .menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.cabecalho nav li a {
+    font-weight: thin;
+    color: #ebdfdf;
+    font-size: 14px;
+    padding: 11px 38px;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.cabecalho nav li a:hover {
+    background-color: #f43779bd;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 140px);
+    padding: 0 30px 30px;
+}
+
+.container .imagem-titulo {
+    max-width: 300px;
+}
+
+.container .descricao {
+    color: #ebdfdf;
+    width: 75%;
+    font-size: 15px;
+    margin: 66px 0;
+    text-align: justify;
+}
+
+.container .botao-trailer {
+    background-color: #f43779bd;
+    color: #ffffff;
+    padding: 13px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    transition: 0.5s all ease-in-out;
+}
+
+.container .botao-trailer:hover {
+    transform: scale(1.1)
+}
+
+.fundo-video {
+    background-color: #960a21;
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.fundo-video .video {
+    height: 100vh;
+}
+
+.fundo-video::after {
+    content: "";
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,1) 100%);
+}
+
+.modal {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(52, 52, 50, 0.749);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.conteudo-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    border-radius: 5px;
+    gap: 15px;
+}
+
+.fechar-modal {
+    background-color: #ffffff;
+    color: #960a21;
+    font-weight: bold;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.modal iframe {
+    border-width: 0;
+    width: 640px;
+    height: 360px;
+}
+
+.modal.aberto {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu-lateral {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.menu-lateral ul {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.menu-lateral .icone {
+    width: 30px;
+    transition: 0.3s ease-in-out;
+    padding: -50px;
+}
+
+.menu-lateral .icone:hover {
+    transform: scale(1);
+}
