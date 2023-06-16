@@ -1,4 +1,4 @@
-**PROJETO "LES DEMOISELLES DE ROCHEFORT"** (OUT/22)
+**PROJETO "LES DEMOISELLES DE ROCHEFORT"** (MAR/23)
 
 <p>Apresento-lhes "Les Demoiselles de Rochefort" (FRA, 1967), uma das maiores pérolas do cineasta Jacques Demy.</p>
 
