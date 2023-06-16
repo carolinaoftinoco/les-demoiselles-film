@@ -1,4 +1,4 @@
-**PROJETO "LES DEMOISELLES DE ROCHEFORT"**
+**PROJETO "LES DEMOISELLES DE ROCHEFORT"** (NOV/22)
 
 <p>Apresento-lhes "Les Demoiselles de Rochefort" (FRA, 1967), uma das maiores pérolas do cineasta Jacques Demy.</p>
 
@@ -24,9 +24,5 @@
 **LINGUAGEM UTILIZADA**
 
 - JavaScript
-
-**STATUS**
-
-<p>Em construção.</p>
 
 https://carolinaoftinoco.github.io/les-demoiselles-film/
