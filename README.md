@@ -25,4 +25,6 @@
 
 - JavaScript
 
+![](https://github.com/carolinaoftinoco/les-demoiselles-film/blob/main/les-demoiselles-film.gif)
+
 https://carolinaoftinoco.github.io/les-demoiselles-film/
