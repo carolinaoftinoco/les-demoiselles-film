@@ -24,7 +24,8 @@
 **LINGUAGEM UTILIZADA**
 
 - JavaScript
+<br>
 
-![](https://github.com/carolinaoftinoco/les-demoiselles-film/blob/main/les-demoiselles-film.gif)
+![les-demoiselles-film](https://github.com/carolinaoftinoco/les-demoiselles-film/blob/main/les-demoiselles-film.gif)
 
-https://carolinaoftinoco.github.io/les-demoiselles-film/
+Clique [aqui](https://carolinaoftinoco.github.io/les-demoiselles-film/) para conferir.
